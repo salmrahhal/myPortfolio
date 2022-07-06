@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background-color: #1e2028;
+    font-family: 'Tajawal', sans-serif;
+}
+main{max-width: 1366px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+nav .logo{
+    font-size: 3rem;
+    color: #564ccf;
+
+}
+nav .nav-items{
+    list-style-type: none;
+    display: flex;
+}
+nav .nav-items .nav-item{
+    padding-left: 2rem;
+}
+.nav-item .nav-link{
+    text-decoration: none;
+    color:#c4c4c4
+}
+.nav-item .nav-link:hover{
+    color:#faf5f5;
+}
+.cta{
+    padding: 0.75rem 2rem;
+    border:none;
+    color:#fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+}
+.cta.dark{
+    background-color: #252731;
+    transition: 0.3s;
+}
+.cta.dark:hover{
+    background-color: #2d303b;
+}
+.cta.purple{
+    background-color: #564ccf;
+}
+.cta.purple:hover{
+    background-color: #5f53e9;
+}
+.hero{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 3rem;
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.hero h1 span{
+    color: #564ccf;
+}
+.hero .cta.cta.purple{
+    margin-left: 1rem;
+}
+.features{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features h3{
+    color:#fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.features h6{
+    color: #c4c4c4;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+.feature{
+    background-color: #252731;
+    display: flex;
+    border-radius: 3rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+}
+.feature .content{
+    padding:4rem;
+    flex: 1;
+}
+.feature .content i{
+    color:#4a41b4;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.feature .content h2{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.feature .content p{
+    color:#4a41b4;
+    font-size: 1.2rem;
+    width:80%;
+    line-height: 2;
+}
+.feature img{
+    flex:1;
+    max-width: 50%;
+}
